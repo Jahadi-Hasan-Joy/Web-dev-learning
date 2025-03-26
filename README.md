@@ -1,2 +1,2 @@
 # Web-dev-learning
-HTML , CSS learnig
+HTML , CSS, JavaScript learnig
