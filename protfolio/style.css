@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0b0f17;
+    color: #ffffff;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(11,15,23,0.95);
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.hero {
+    min-height: 100vh;
+    padding: 120px 80px 40px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text span {
+    color: #ff6b4a;
+}
+
+.hero-desc {
+    margin-top: 15px;
+    color: #ccc;
+    max-width: 500px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.primary {
+    background: #ff6b4a;
+    color: #fff;
+}
+
+.secondary {
+    border: 1px solid #ff6b4a;
+    color: #ff6b4a;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+section {
+    padding: 80px;
+    text-align: center;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: auto;
+    color: #ccc;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.stats h3 {
+    color: #ff6b4a;
+}
+
+.profile-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.profile-cards a {
+    padding: 15px 30px;
+    border: 1px solid #ff6b4a;
+    color: #ff6b4a;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.footer {
+    padding: 40px;
+    background: #06080f;
+    text-align: center;
+}
+
+.back-top {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ff6b4a;
+    text-decoration: none;
+}
